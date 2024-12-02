@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA5EC85F-3246-4075-849B-C3D0B98D3843}</ProjectGuid>
+    <ProjectGuid>{12291944-0C0C-44D6-B279-15D0852EA998}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleApp1</RootNamespace>
     <AssemblyName>ConsoleApp1</AssemblyName>
@@ -43,13 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Document.cs" />
-    <Compile Include="ImageDocument.cs" />
-    <Compile Include="IPrintable.cs" />
-    <Compile Include="Printer.cs" />
-    <Compile Include="Printer1.cs" />
+    <Compile Include="EmailSender.cs" />
+    <Compile Include="IMessageSender.cs" />
+    <Compile Include="Notification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmsSender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
